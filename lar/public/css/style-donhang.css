@@ -1,0 +1,203 @@
+.user-order-items {
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    float: left;
+    width: 100%;
+}
+.user-order-items.first-child {
+    margin-top: 20px;
+    position: relative;
+    min-height: 220px;
+}
+.user-order-items .order-inf1 {
+    background-color: #f5f5f5;
+    padding-bottom: 10px;
+}
+.user-order-items .order-inf1 .cols-order-inf:first-child {
+    margin-left: 20px;
+}
+.user-order-items .order-inf1 .cols-order-inf {
+    line-height: 1.6;
+    position: relative;
+    margin-top: 10px;
+    width: 30%;
+    display: inline-block;
+}
+.user-order-items .order-inf1 .order-code {
+    float: left;
+    margin-right: 15px;
+    width: 100%;
+}
+.user-order-items .order-inf1 .cols-order-inf span {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.user-order-items .order-code .link-oder-detail {
+    color: #0066ff;
+}
+.user-inf-status-dh {
+    display: none;
+}
+.order-inf1 .cols-order-inf .user-inf-add {
+    position: absolute;
+    width: 300px;
+    padding: 5px 10px;
+    line-height: 20px;
+    border: 1px solid #ccc;
+    background: #4db56d;
+    color: #fff;
+    display: none;
+    z-index: 10;
+    opacity: 0.8;
+    transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+}
+.user-order-items .order-inf1 .cols-total-money {
+    float: right;
+    text-align: right;
+    margin-right: 20px;
+}
+.user-order-items .order-inf1 .cols-total-money span {
+    display: block !important;
+}
+.order-inf2 .order-inf2-rg {
+    float: right;
+    padding: 20px 0px 0 0;
+    
+}
+img {
+    border: 0;
+    max-width: 100%;
+}
+.block-inprogress .inner-steps:first-child {
+    padding-left: 0;
+    min-width: 85px;
+}
+.block-inprogress .inner-steps {
+    float: left;
+    text-align: center;
+    position: relative;
+    
+}
+.block-inprogress .inner-steps .not-active {
+    color: #999999;
+    padding-right: 18px;
+}
+
+.user-order-items .order-inf2 .order-inf2-lf {
+    
+    float: left;
+    padding: 15px 15px 15px 20px;
+}
+.order-inf2 .order-inf2-lf .img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+}
+.order-inf2 .order-inf2-lf .pr-name {
+    font-weight: bold;
+    display: block;
+    line-height: 17px;
+}
+.order-inf2 .order-inf2-lf .shop-name {
+    display: block;
+    padding: 5px 0;
+    color: #999999;
+}
+.order-inf2 .order-inf2-lf .shop-name span {
+    color: #0066ff;
+}
+@media screen and (max-width: 1366px){
+.order-inf2 .order-inf2-lf .order-status {
+    max-width: 73%;
+
+}
+
+.block-btn-group {
+    padding: 10px;
+}
+}
+.cols-total-money-mobile {
+    display: none;
+}
+
+.block-btn-group {
+    display: block;
+    max-width: 51%;
+    padding: 10px 20px 10px;
+    overflow: auto;
+    float: right;
+    text-align: right;
+}
+.block-inprogress .inner-steps .icon {
+   
+    fill: #d0d0d0;
+}
+
+
+.order-inf2 .order-inf2-lf .order-status {
+    padding: 5px 10px;
+    color: #f7941d;
+    display: inline-block;
+    border: 1px dashed #f7941d;
+    max-width: 75%;
+}
+.order-inf2 .order-inf2-rg .bt.btn-hdh:hover, .block-btn-group .bt.btn-hdh:hover, .block-btn-group .bt.btn-hdh, .block-btn-group .bt.btn-hkn, .order-inf2 .order-inf2-rg .bt.btn-hdh, .order-inf2 .order-inf2-rg .bt.btn-hkn {
+    color: #333;
+    background: #eeeeee;
+    border-color: #d7d7d7;
+    border: 1px solid #d7d7d7;
+}
+
+.order-inf2 .order-inf2-rg .bt.btn-hdh, .block-btn-group .bt.btn-hdh {
+    width: 45px;
+    float: right;
+}
+.order-inf2 .order-inf2-rg .bt, .block-btn-group .bt {
+    background: url(//static.scdn.vn/images/ecom/bg-ttl-user-order.gif) 0 -15px repeat-x;
+    text-align: center;
+    margin-top: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #e5101d;
+    color: #fff;
+    background: #e5101d;
+    white-space: nowrap;
+    margin-left: 10px;
+    padding: 5px 5px;
+    overflow: auto;
+}
+button, html input[type='button'], input[type='reset'], input[type='submit'] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+.block-inprogress .inner-steps {
+    float: left;
+    text-align: center;
+    padding-left: 15px;
+    position: relative;
+  
+}
+[class^='icon-'], [class*=' icon-'] {
+    display: inline-block;
+    color: #000000;
+    fill: currentColor;
+   
+}
+

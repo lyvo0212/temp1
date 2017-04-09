@@ -1,0 +1,68 @@
+.reg form {
+    margin-top: 32px;
+}
+.reg-form {
+    float: left;
+    width: 50%;
+}
+.reg ul {
+    padding: 0;
+    margin: 0 0 22px 0;
+}
+.reg ul li.text-info {
+    width: 38%;
+    color: #816263;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0 0 0px 0;
+    font-weight: bold;
+}
+.reg ul li {
+    display: inline-block;
+    width: 58%;
+}
+.text-info {
+    color: #31708f;
+}
+.reg form input[type="text"], .reg form input[type="password"], .reg form input[type="date"] ,.reg form input[type="email"]{
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #e6e6e6;
+    outline: none;
+    color: #000;
+}
+.reg-right {
+    float: right;
+    width: 47%;
+  }
+.reg1 form input[type="password"], .reg1 form input[type="email"]{
+    width: 60%;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #e6e6e6;
+    outline: none;
+    color: #000;
+}  
+.reg1 input {
+    padding: 0;
+    margin: 0 0 22px 0;
+}
+.acount-btn {
+    background: #816263;
+    color: #FFF;
+    font-size: 15px;
+    padding: 0.7em 1.2em;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.acount-btn:hover, .login-right input[type="submit"]:hover {
+    text-decoration: none;
+   
+}
